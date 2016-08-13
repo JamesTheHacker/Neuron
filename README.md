@@ -21,6 +21,11 @@ Install
     cd Neuron
     npm install
 
+Usage
+-----
+
+Running `npm start` will build the JS and CSS files and launch the Electron application.
+
 Electron
 --------
 
