@@ -1,6 +1,8 @@
 Neuron - ES6 React Electron Starter Kit
 =======================================
 
+**Note** This project is a work in progress. I welcome any feedback, and support.
+
 Neuron is a very simple starter kit for anyone wanting to create desktop applications with Electron. It comes complete with a handful of useful tools to make killer desktop applications.
 
 Features
