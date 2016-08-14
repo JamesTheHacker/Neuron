@@ -2,7 +2,7 @@ import path from 'path'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 
 export default {
-    context: path.resolve(__dirname, 'app/js'),
+    context: __dirname,
     entry: './entry.js',
     output: {
       path: path.resolve(__dirname, 'app/dist'),
@@ -23,12 +23,16 @@ export default {
         },
         {
           test: /\.scss$/,
-          loader: ExtractTextPlugin.extract("style", "css", "sass")
-        }
+          loader: ExtractTextPlugin.extract("style", "css!sass"),
+          include: [
+            path.resolve(__dirname, 'app/css'),
+          ]
+        },
+        {
+          test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+          loader: "url?limit=500000"
+        },
       ]
-    },
-    sassLoader: {
-      includePaths: [ path.resolve(__dirname, "app/css") ]
     },
     plugins: [
        new ExtractTextPlugin("app.css")

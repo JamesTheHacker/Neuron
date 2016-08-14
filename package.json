@@ -1,27 +1,34 @@
 {
   "name": "neuron",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.babel.js",
-    "start": "npm run build && electron ."
+    "start": "npm run build && electron .",
+    "postinstall": "bash postinstall.sh",
+    "add-cors": "add-cors-to-couchdb"
   },
-  "author": "",
+  "author": "James Jeffery",
   "license": "ISC",
   "devDependencies": {
+    "add-cors-to-couchdb": "0.0.6",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.13.2",
     "css-loader": "^0.23.1",
+    "dotenv": "^2.0.0",
     "electron": "^1.3.3",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
     "node-sass": "^3.8.0",
-    "pouchdb": "^5.4.5",
+    "pouchdb": "^5.4.4",
+    "pouchdb-find": "^0.10.3",
     "react": "^15.3.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.1"
   }
 }

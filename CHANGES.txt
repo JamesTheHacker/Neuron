@@ -1,0 +1,11 @@
+Revision history for Neuron
+
+1.0.0 13-08-16
+
+  * First release
+
+2.0.0 14-08-2016
+
+  * Added PouchDB and CouchDB remote replication
+  * Installed pouchdb-find
+  * Added "Open Sans" font family
