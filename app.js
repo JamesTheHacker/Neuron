@@ -12,7 +12,7 @@ const localDB = new PouchDB('app/data')
 
 // Remote CouchDB
 if(env.COUCH_HOST && env.COUCH_PORT) {
-  var remoteDB = new PouchDB(`${env.COUCH_PROTOCOL}://${env.COUCH_HOST}:${env.COUCH_PORT}/${env.COUCH_DB}`, {
+  const remoteDB = new PouchDB(`${env.COUCH_PROTOCOL}://${env.COUCH_HOST}:${env.COUCH_PORT}/${env.COUCH_DB}`, {
     auth: {
       username: env.COUCH_USERNAME,
       password: env.COUCH_PASSWORD

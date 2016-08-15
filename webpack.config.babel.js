@@ -14,12 +14,7 @@ export default {
           test: /\.jsx?$/,
           exclude: /node_modules/,
           loader: 'babel-loader',
-          query: {
-            presets: ['es2015']
-          },
-          include: [
-            path.resolve(__dirname, 'app/js'),
-          ]
+          query: { presets: ['es2016', 'react'] }
         },
         {
           test: /\.scss$/,
@@ -27,11 +22,7 @@ export default {
           include: [
             path.resolve(__dirname, 'app/css'),
           ]
-        },
-        {
-          test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-          loader: "url?limit=500000"
-        },
+        }
       ]
     },
     plugins: [
