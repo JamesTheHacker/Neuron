@@ -1,13 +1,13 @@
 {
   "name": "neuron",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.babel.js",
     "start": "npm run build && electron .",
-    "postinstall": "bash postinstall.sh",
+    "postinstall": "bash postinstall.sh && mv .env.sample .env",
     "add-cors": "add-cors-to-couchdb"
   },
   "author": "James Jeffery",
