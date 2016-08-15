@@ -9,3 +9,7 @@ Revision history for Neuron
   * Added PouchDB and CouchDB remote replication
   * Installed pouchdb-find
   * Added "Open Sans" font family
+
+2.0.2 15-08-2016
+
+  * Added Travis CI
