@@ -4,6 +4,8 @@ const { app, BrowserWindow } = require('electron')
 const PouchDB = require('pouchdb')
 const env = process.env
 
+let win
+
 // Add pouchdb-find plugin for Mongo inspired queries
 PouchDB.plugin(require('pouchdb-find'))
 
@@ -40,8 +42,6 @@ if(env.COUCH_HOST && env.COUCH_PORT) {
     // Something bad has happened
   });
 }
-
-let win
 
 function createWindow() {
   win = new BrowserWindow({

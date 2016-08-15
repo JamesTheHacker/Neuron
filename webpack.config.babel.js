@@ -14,7 +14,7 @@ export default {
           test: /\.jsx?$/,
           exclude: /node_modules/,
           loader: 'babel-loader',
-          query: { presets: ['es2016', 'react'] }
+          query: { presets: ['es2015', 'react'] }
         },
         {
           test: /\.scss$/,
