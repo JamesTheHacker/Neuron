@@ -1,6 +1,9 @@
 Neuron - ES6 React Electron Starter Kit
 =======================================
 
+![Travis CI Build Status](https://travis-ci.org/JamesTheHacker/Neuron.svg?branch=master)
+
+
 **Note:** This project is an active work in progress. Contributions, support and feedback is very much welcomed.
 
 Neuron is an [offline first](http://offlinefirst.org/) starter kit for developers wanting to create cross platform desktop applications with Electron. It comes complete with a handful of useful tools to help you create killer applications that run on all platforms!
