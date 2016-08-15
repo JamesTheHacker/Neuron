@@ -1,8 +1,7 @@
 Neuron - ES6 React Electron Starter Kit
 =======================================
 
-![Travis CI Build Status](https://travis-ci.org/JamesTheHacker/Neuron.svg?branch=master)
-
+[![Build Status](https://travis-ci.org/JamesTheHacker/Neuron.svg?branch=master)](https://travis-ci.org/JamesTheHacker/Neuron)
 
 **Note:** This project is an active work in progress. Contributions, support and feedback is very much welcomed.
 
