@@ -40,6 +40,10 @@ Usage
 
 Running `npm start` will build the JS and CSS files and launch the Electron application.
 
+By default devtools is disabled. To enable it uncomment the following line in `app.js`:
+
+    //win.webContents.openDevTools()
+
 Electron
 --------
 
