@@ -1,8 +1,2 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import hello from './app/js/hello.js'
-
+import './app/js/components/Hello.js'
 import './app/css/app.scss'
-
-// Say hello
-hello()
