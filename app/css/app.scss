@@ -1,3 +1,17 @@
 body {
-  font-family: "Open Sans";
+  font-family: "OpenSans";
+}
+
+#app {
+  text-align: center;
+
+  h1 {
+    font-family: "OpenSansLight";
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  img {
+    padding: 30px 0 10px 0;
+  }
 }

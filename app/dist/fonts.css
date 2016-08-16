@@ -1,6 +1,17 @@
 @font-face {
-  font-family: "Open Sans";
-  src:  url(fonts/OpenSans-Bold.ttf) format("truetype"),
-        url(fonts/OpenSans-Light.ttf) format("truetype"),
-        url(fonts/OpenSans-Regular.ttf) format("truetype");
+  font-family: "OpenSans";
+  src: url(fonts/OpenSans-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url(fonts/OpenSans-Bold.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url(fonts/OpenSans-Light.ttf) format("truetype");
+  font-weight: normal;
 }
