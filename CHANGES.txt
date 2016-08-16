@@ -13,3 +13,7 @@ Revision history for Neuron
 2.0.2 15-08-2016
 
   * Added Travis CI
+
+2.0.2 16-08-2016
+
+ * Added logo. Logo design by: https://github.com/Polyducks
